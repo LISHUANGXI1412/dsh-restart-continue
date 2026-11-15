@@ -1,6 +1,6 @@
 {
   "name": "dsh-restart-continue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Restart DSH Desktop from an agent tool and resume the same conversation automatically.",
   "type": "module",
   "main": "index.js",
