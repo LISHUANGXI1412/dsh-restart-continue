@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "重启并续聊",
+    "description": "让 Agent 主动重启 DSH Desktop，并在新进程启动后自动恢复同一会话继续工作。"
+  }
+}

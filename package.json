@@ -1,0 +1,52 @@
+{
+  "name": "dsh-restart-continue",
+  "version": "0.1.0",
+  "description": "Restart DSH Desktop from an agent tool and resume the same conversation automatically.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "LISHUANGXI1412",
+  "homepage": "https://github.com/LISHUANGXI1412/dsh-restart-continue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LISHUANGXI1412/dsh-restart-continue"
+  },
+  "bugs": {
+    "url": "https://github.com/LISHUANGXI1412/dsh-restart-continue/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "restart",
+    "resume",
+    "session"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
